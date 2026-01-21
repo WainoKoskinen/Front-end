@@ -1,2 +1,32 @@
 body { font-family: sans-serif; text-align: center; background: #f0f0f0; }
 h1 { color: #333; }
+
+
+/* Lista keskelle */
+.todo-list {
+    list-style-type: square; /* avoin laatikko */
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+}
+
+/* Keskitetään lista sivulle */
+body {
+    text-align: center;
+}
+
+/* Listaelementtien perustyyli */
+.todo-list li {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+/* Prioriteetit */
+.kiireinen {
+    color: red;
+    font-weight: bold;
+}
+
+.normaali {
+    color: black;
+}
