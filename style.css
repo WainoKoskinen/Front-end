@@ -1,32 +1,31 @@
-body { font-family: sans-serif; text-align: center; background: #f0f0f0; }
-h1 { color: #333; }
-
-
-/* Lista keskelle */
-.todo-list {
-    list-style-type: square; /* avoin laatikko */
-    text-align: left;
-    display: inline-block;
-    padding: 0;
-}
-
-/* Keskitetään lista sivulle */
 body {
-    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
 }
 
-/* Listaelementtien perustyyli */
-.todo-list li {
+
+.todolist li {
     font-size: 18px;
     margin: 8px 0;
 }
-
-/* Prioriteetit */
-.kiireinen {
-    color: red;
-    font-weight: bold;
+.left-panel {
+    background-color: #fffacd; 
+    padding: 20px;
+    width: 40%;
+    border-right: 1px solid #ccc;
 }
 
-.normaali {
-    color: black;
+
+.right-panel {
+    background-color: #ffb6c1; 
+    padding: 20px;
+    width: 60%;
+}
+
+
+.container {
+    display: flex; 
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
 }
